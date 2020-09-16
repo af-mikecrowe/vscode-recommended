@@ -1,0 +1,47 @@
+{
+  "name": "vscode-axcess-recommended",
+  "displayName": "VSCode Axcess Financial Recommended Extensions",
+  "description": "Recommended VSCode extensions for Javascript and Typescript development",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "repository": {
+    "url": "https://github.com/af-mikecrowe/vscode-recommended.git"
+  },
+  "extensionPack": [
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.auto-rename-tag",
+    "coenraads.bracket-pair-colorizer-2",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "drknoxy.eslint-disable-snippets",
+    "github.vscode-pull-request-github",
+    "eamodio.gitlens",
+    "mikestead.dotenv",
+    "eg2.vscode-npm-script",
+    "orta.vscode-jest",
+    "sirtori.indenticator",
+    "shd101wyy.markdown-preview-enhanced",
+    "lostfields.nodejs-repl",
+    "christian-kohler.npm-intellisense",
+    "threadheap.serverless-ide-vscode",
+    "richie5um2.vscode-sort-json",
+    "tyriar.sort-lines",
+    "hbenl.vscode-test-explorer",
+    "kavod-io.vscode-jest-test-adapter",
+    "visualstudioexptteam.vscodeintellicode",
+    "christian-kohler.path-intellisense",
+    "dkundel.vscode-npm-source",
+    "wix.vscode-import-cost",
+    "ms-vsliveshare.vsliveshare"
+  ],
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "create-local-ext-pack": "^1.2.5"
+  }
+}
